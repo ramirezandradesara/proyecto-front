@@ -1,0 +1,29 @@
+.username-container {
+    display: inline-flex;
+    min-width: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #263238;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.avatar > p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,29 @@
+footer {
+    background-color: #1DBEB4;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-copyrights>p {
+    color: #fff;
+}
+
+svg {
+    color: #fff;
+    height: 22px;
+    width: 24px;
+    left: 1238px;
+    top: 16px;
+    margin-right: 15px;
+
+}

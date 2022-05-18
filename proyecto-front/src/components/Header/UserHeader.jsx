@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './UserHeader.css'
-import user from './user.json'
+import user from '../../jsons/user.json'
 
 
 function UserHeader() {

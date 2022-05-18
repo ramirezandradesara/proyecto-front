@@ -15,7 +15,6 @@ function App() {
         <UserHeader />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/login" element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>
